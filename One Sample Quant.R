@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #ONE SAMPLE QUANTITATIVE VARIABLE - PARAMETRIC METHODS
 
+=======
+#ONE SAMPLE QUANTITATIVE VARIABLE
+# I am making a note is Dawn's filen from Adam
+>>>>>>> 75348b827e8675a8d9d2d39854bca218e40e151f
 #Visuals: boxplot or histogram
 
 hist(variable, xlab = "X axis label", ylab = "Y axis label", ylim = c(0, 100),
