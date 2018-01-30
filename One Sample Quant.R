@@ -1,4 +1,4 @@
-#ONE SAMPLE QUANTITATIVE VARIABLE
+#ONE SAMPLE QUANTITATIVE VARIABLE - PARAMETRIC METHODS
 
 #Visuals: boxplot or histogram
 
@@ -24,4 +24,6 @@ ci.ub = mean(variable) + moe
 
 #Short method
 t.test(variable)
+
+#ONE SAMPLE QUANTITATIVE VARIABLE - PARAMETRIC METHODS
 
