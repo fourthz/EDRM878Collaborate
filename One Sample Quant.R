@@ -25,5 +25,4 @@ ci.ub = mean(variable) + moe
 #Short method
 t.test(variable)
 
-#ONE SAMPLE QUANTITATIVE VARIABLE - PARAMETRIC METHODS
 
