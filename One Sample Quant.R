@@ -1,5 +1,5 @@
 #ONE SAMPLE QUANTITATIVE VARIABLE
-
+# I am making a note is Dawn's filen from Adam
 #Visuals: boxplot or histogram
 
 hist(variable, xlab = "X axis label", ylab = "Y axis label", ylim = c(0, 100),
