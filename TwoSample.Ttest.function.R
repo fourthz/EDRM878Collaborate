@@ -34,12 +34,12 @@ ttest<-function(yvec,trtvec,alpha=0.05,header="") {
   names(out)=c("Estimator","SE","T","P-value","Lower CI","Upper CI","Confidence", "Decision")
   out}
 
-#x is a vector of out the scores from both groups
+#x is a vector of the scores from both groups.
 x<-c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
 
 #y is a vector of the treatment conditions
 y<-c(1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2)
 
-#the arguments are the score vector, the treatment vector,alpha, and header.
+#the arguments are the score vector, the treatment vector,alpha value, and header.
 #the default alpha of .05 is used if not imput. 
 ttest(x,y,0.05,"Test")
