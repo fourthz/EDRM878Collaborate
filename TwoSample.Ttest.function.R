@@ -1,3 +1,9 @@
+
+# You created your own function? Wow!
+# Who is this? We should document who we are at the top
+# of our code. I have not been doing that, so I need
+# to start doing it, too!
+
 #################################################
 # A function to compute a two-sample t-test and confidence 
 # interval (equal-variance, independent samples).  yvec is 
