@@ -9,6 +9,8 @@
 # confidence interval and decision.
 ##################################################
 
+yvec<-x
+trtvec<-y
 ttest<-function(yvec,trtvec,alpha=0.05,header="") {
   trtvec=as.factor(trtvec)
   boxplot(split(yvec,trtvec))
