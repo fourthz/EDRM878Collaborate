@@ -40,8 +40,8 @@ barplot(matrix, main="title of the graph",
 #Simple Horizontal Bar Plot with Added Labels
 barplot(matrix, main="title of the graph", horiz=True, names.arg=c(firstcategory, secondcategory, thirdcategory))
 #Stacked Bar Plot with Colors and Legend
-barplot(matrixes, main="title of the graph", xlab="X axis label", col=c("color1","color2"),
+barplot(matrix, main="title of the graph", xlab="X axis label", col=c("color1","color2"),
         legend = rownames(matrixes))
 # Grouped Bar Plot
-barplot(matrixes, main="title of the graph", xlab="X axis label", col=c("color1","color2"),
+barplot(matrix, main="title of the graph", xlab="X axis label", col=c("color1","color2"),
         legend = rownames(matrixes), beside=True)
