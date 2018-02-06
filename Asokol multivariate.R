@@ -1,4 +1,8 @@
 #trying to upload file
+
+install.packages("MASS") #if package not already installed
+install.packages("rrcov") #if package not already installed
+
 library(MASS)#randomly generate multivariate data
 library(rrcov)#performs wilks.test
 
